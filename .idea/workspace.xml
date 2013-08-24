@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be03968-8fd0-4b11-980e-959bdd1ae62b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml" afterPath="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Highlight/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" />
     </list>
     <ignored path="Highlight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +101,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayMessageActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="1" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,6 +195,7 @@
         <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
         <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml" />
+        <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" />
       </list>
     </option>
   </component>
@@ -463,16 +471,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/com/mycompany/myapp/DisplayMessageActivity.java">
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="195" selection-end="195" vertical-scroll-proportion="0.10118044" vertical-offset="0" max-vertical-offset="825">
-          <folding />
+        <state line="10" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+        <state line="32" column="1" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
