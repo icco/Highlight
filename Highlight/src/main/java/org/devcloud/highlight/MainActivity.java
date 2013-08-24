@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
   }
 
   /**
-   * Called when the user clicks the Send button
+   * Called when the user clicks the Send button.
    */
   public void sendMessage(View view) {
     Intent intent = new Intent(this, DisplayMessageActivity.class);
