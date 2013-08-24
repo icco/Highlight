@@ -1,6 +1,5 @@
 package org.devcloud.highlight;
 
-import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,6 +25,6 @@ public class MainActivity extends Activity {
     EditText editText = (EditText) findViewById(R.id.edit_message);
     String message = editText.getText().toString();
     intent.putExtra(EXTRA_MESSAGE, message);
-
+    startActivity(intent);
   }
 }

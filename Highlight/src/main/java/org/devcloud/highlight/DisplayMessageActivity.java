@@ -1,6 +1,5 @@
 package org.devcloud.highlight;
 
-import android.R;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;

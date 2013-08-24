@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be03968-8fd0-4b11-980e-959bdd1ae62b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Highlight.iws" />
@@ -87,24 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="42" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-16.11111" vertical-offset="0" max-vertical-offset="540">
-              <folding>
-                <element signature="e#1030#1051#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.43001688" vertical-offset="0" max-vertical-offset="593">
+            <state line="29" column="1" selection-start="827" selection-end="827" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="615">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,9 +101,21 @@
       <file leaf-file-name="DisplayMessageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="52" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="46" selection-start="930" selection-end="930" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="510">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#909#930#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,11 +123,11 @@
       </file>
       <file leaf-file-name="activity_display_message.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="59" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -204,11 +202,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Highlight/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml" />
-        <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
         <option value="$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" />
+        <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -401,20 +399,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.7971759" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.8254172" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20282413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20282413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,7 +420,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1751634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1745828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -453,7 +451,7 @@
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding>
-            <element signature="e#1030#1051#0" expanded="true" />
+            <element signature="e#909#930#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,18 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="42" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-16.11111" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="e#1030#1051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
@@ -498,16 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="68" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
@@ -515,18 +491,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="59" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+        <state line="5" column="28" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="930" selection-end="930" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="510">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#909#930#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="463" selection-end="463" vertical-scroll-proportion="0.43001688" vertical-offset="0" max-vertical-offset="593">
+        <state line="29" column="1" selection-start="827" selection-end="827" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="615">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
