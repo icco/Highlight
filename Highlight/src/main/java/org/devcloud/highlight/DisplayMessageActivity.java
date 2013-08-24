@@ -23,6 +23,8 @@ public class DisplayMessageActivity extends Activity {
     }
 
     Intent intent = getIntent();
+
+    // The thing we are passing over from the Intent.
     String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
     // Create the text view
@@ -34,6 +36,7 @@ public class DisplayMessageActivity extends Activity {
     setContentView(textView);
   }
 
+  // Generated Bullshit.
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     switch (item.getItemId()) {
