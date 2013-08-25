@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be03968-8fd0-4b11-980e-959bdd1ae62b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Highlight.iws" />
@@ -88,16 +88,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="570">
+            <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplayMessageActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DisplayMessageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="24" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.6804261" vertical-offset="59" max-vertical-offset="810">
+            <state line="38" column="24" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="810">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,35 +105,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="DbHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DbHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="510">
-              <folding />
+            <state line="29" column="18" selection-start="1027" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_display_message.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="HighlightMessage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="68" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="600">
-              <folding />
+            <state line="57" column="19" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.8002663" vertical-offset="254" max-vertical-offset="1005">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,6 +192,9 @@
         <option value="$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java" />
         <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java" />
+        <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DbHelper.java" />
+        <option value="$PROJECT_DIR$/Highlight/build/source/r/debug/org/devcloud/highlight/HighlightMessage.java" />
+        <option value="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java" />
       </list>
     </option>
   </component>
@@ -218,7 +210,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -254,6 +246,11 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.devcloud.highlight" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.Highlight">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -390,7 +387,11 @@
       <created>1377383495813</created>
       <updated>1377383495813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Android.">
+      <created>1377388194399</created>
+      <updated>1377388194399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -400,6 +401,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.8254172" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,6 +409,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20282413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,9 +422,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.8254172" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20282413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -433,29 +434,14 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Dicking Around" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dicking Around" />
+    <MESSAGE value="Android." />
+    <option name="LAST_COMMIT_MESSAGE" value="Android." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="810">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -524,12 +510,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="24" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/res/layout/activity_display_message.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
+        <state line="7" column="59" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -539,7 +534,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="510">
+        <state line="24" column="46" selection-start="930" selection-end="930" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
@@ -551,9 +546,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DisplayMessageActivity.java">
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/DbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.6804261" vertical-offset="59" max-vertical-offset="810">
+        <state line="29" column="18" selection-start="1027" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.8002663" vertical-offset="254" max-vertical-offset="1005">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
