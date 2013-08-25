@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2be03968-8fd0-4b11-980e-959bdd1ae62b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java" afterPath="$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Highlight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,7 +118,7 @@
       <file leaf-file-name="HighlightMessage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="19" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.8002663" vertical-offset="254" max-vertical-offset="1005">
+            <state line="12" column="16" selection-start="262" selection-end="262" vertical-scroll-proportion="0.23968042" vertical-offset="0" max-vertical-offset="975">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -557,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Highlight/src/main/java/org/devcloud/highlight/HighlightMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.8002663" vertical-offset="254" max-vertical-offset="1005">
+        <state line="12" column="16" selection-start="262" selection-end="262" vertical-scroll-proportion="0.23968042" vertical-offset="0" max-vertical-offset="975">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

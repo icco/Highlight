@@ -10,6 +10,8 @@ import java.util.Date;
  * Class for storing messages.
  */
 public class HighlightMessage {
+  private final 
+
   private final String COLUMN_NAME_TEXT = "text";
   private final String COLUMN_TYPE_TEXT = "text";
 
@@ -41,7 +43,7 @@ public class HighlightMessage {
     this.created = created;
   }
 
-  public void save(Context context) {
+  public long save(Context context) {
     DbHelper mDbHelper = new DbHelper(context);
 // Gets the data repository in write mode
     SQLiteDatabase db = mDbHelper.getWritableDatabase();
@@ -52,10 +54,6 @@ public class HighlightMessage {
     values.put(this.COLUMN_NAME_DATE, this.getCreated());
 
 // Insert the new row, returning the primary key value of the new row
-    long newRowId;
-    newRowId = db.insert(
-        this.TABLE_NAME,
-        this.COLUMN_NAME_NULLABLE,
-        values);
+    return db.insert(this.TABLE_NAME, this.COLUMN_NAME_NULLABLE, values);
   }
 }
