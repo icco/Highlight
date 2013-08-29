@@ -9,20 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class DbHelper extends SQLiteOpenHelper {
 
-  private static final String TEXT_TYPE = " TEXT";
-  private static final String COMMA_SEP = ",";
-  private static final String SQL_CREATE_ENTRIES =
-      "CREATE TABLE " + HighlightMessage.TABLE_NAME + " (" +
-          FeedEntry._ID + " INTEGER PRIMARY KEY," +
-          FeedEntry.COLUMN_NAME_ENTRY_ID + TEXT_TYPE + COMMA_SEP +
-          FeedEntry.COLUMN_NAME_TITLE + TEXT_TYPE + COMMA_SEP +
-  ... // Any other options for the CREATE command
-      " )";
-
-  private static final String SQL_DELETE_ENTRIES =
-      "DROP TABLE IF EXISTS " + FeedEntry.TABLE_NAME;
-
-
   // If you change the database schema, you must increment the database version.
   public static final int DATABASE_VERSION = 1;
   public static final String DATABASE_NAME = "Highlight.db";
@@ -32,13 +18,16 @@ public class DbHelper extends SQLiteOpenHelper {
   }
 
   public void onCreate(SQLiteDatabase db) {
-    db.execSQL(SQL_CREATE_ENTRIES);
+    db.execSQL("CREATE TABLE " + HighlightMessage.TABLE_NAME + " (id INTEGER PRIMARY KEY," +
+        HighlightMessage.COLUMN_NAME_TEXT + " " + HighlightMessage.COLUMN_TYPE_TEXT + " NOT NULL, " +
+        HighlightMessage.COLUMN_NAME_DATE + " " + HighlightMessage.COLUMN_TYPE_DATE + " NOT NULL, " +
+        ")");
   }
 
   public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
     // This database is only a cache for online data, so its upgrade policy is
     // to simply to discard the data and start over
-    db.execSQL(SQL_DELETE_ENTRIES);
+    db.execSQL("DROP TABLE IF EXISTS " + HighlightMessage.TABLE_NAME);
     onCreate(db);
   }
 
